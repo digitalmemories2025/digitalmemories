@@ -195,6 +195,24 @@ button {
     transform: translateY(-5px);
 }
 
+.member-image {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    background-color: var(--light-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1 / 1;
+}
+
+.member-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
 .member-info {
     padding: 2rem;
 }
